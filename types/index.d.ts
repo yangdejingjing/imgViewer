@@ -1,4 +1,4 @@
-declare interface ViewerOptions {
+export interface ViewerOptions {
 	step?: number;
 	max?: number;
 }

@@ -1,3 +1,5 @@
+import { ViewerOptions } from "types";
+
 export default class Viewer {
 	scale: number = 1;
 	options: ViewerOptions;
