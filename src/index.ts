@@ -1,4 +1,4 @@
-import { ViewerOptions } from "types";
+import { ViewerOptions } from "../types/index";
 
 export default class Viewer {
 	scale: number = 1;
