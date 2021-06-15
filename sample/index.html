@@ -3,8 +3,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script src="../src/viewer.js"></script>
-	<link href="../src/viewer.css" rel="stylesheet" type="text/css">
+	<script src="require.js"></script>
+	<script src="../dist/index.js"></script>
+	<link href="../dist/viewer.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -12,8 +13,17 @@
 
 <script>
 	window.onload = function () {
-		var viewer = new Viewer('http://192.168.1.101/group1/M00/00/07/wKgBZWDIao-AbAWsAZl6ov205Tk99.jpeg');
-		console.log(viewer);
+		// import("../dist/index.js").then(v => {
+		// 	console.log(v);
+		// })
+
+		console.log(window.Viewer);
+		require(['../dist/index.js'], function (a) {
+			console.log(a)
+		});
+
+		// var viewer = new Viewer('http://192.168.1.101/group1/M00/00/07/wKgBZWDIao-AbAWsAZl6ov205Tk99.jpeg');
+		// console.log(viewer);
 	}
 </script>
 
