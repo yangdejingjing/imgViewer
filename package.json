@@ -1,15 +1,22 @@
 {
-  "name": "viewer",
+  "name": "yangdejingjing-viewer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
-  },
-  "author": "",
+  "description": "图片查看器",
+  "main": "src/viewer.js",
+  "author": "yangdejingjing <yangdejingjing@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {},
+  "files": [
+    "sample",
+    "src",
+    "types"
+  ],
+  "keywords": [
+    "yjj-img-viewer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangdejingjing/imgViewer.git"
+  },
+  "private": false,
   "typings": "./types/index.d.ts"
 }
