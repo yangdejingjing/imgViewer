@@ -1,6 +1,6 @@
 {
   "name": "yangdejingjing-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "图片查看器",
   "main": "src/viewer.js",
   "author": "yangdejingjing <yangdejingjing@gmail.com>",
